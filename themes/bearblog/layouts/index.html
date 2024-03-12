@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ .Content }}
+  <h1>Recent posts</h1>
+  <ul class="blog-posts">
+    {{ range site.RegularPages.ByDate.Reverse}}
+    {{ if eq .Section "blog" }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+
+
+{{ end }}
