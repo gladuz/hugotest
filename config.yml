@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://tursunboev.com/"
 title: Jamshid's blog
 paginate: 20
 theme: PaperMod
