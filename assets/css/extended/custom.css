@@ -1,0 +1,8 @@
+.first-entry {
+    min-height: unset;
+}
+.post-content figure > figcaption{
+    color: #888;
+    font-weight: unset;
+    text-align: center;
+}

@@ -1,7 +1,7 @@
-+++
+---
 title = "Bear"
 menu = "main"
-+++
+---
 
 # Bear
 

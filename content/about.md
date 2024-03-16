@@ -1,7 +1,7 @@
-+++
-title = "about"
-menu = "main"
-+++
+---
+title : "about"
+layout: about
+---
 # Hi there, I'm Jamshid 👋
 
 I am currently a PhD student at Kyungpook National University advised by Dr. Jae-Mo Kang Computer Vision & Learning Theory LAB
